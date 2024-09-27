@@ -1,0 +1,132 @@
+/* Importa una fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #f7f7f7; /* Fondo suave */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    color: #333; /* Color de texto más suave */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1A0153; /* Color oscuro para el encabezado */
+    display: flex;
+    width: 100%;
+    height: 120px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header img {
+    height: 80px; /* Ajustamos el tamaño de la imagen */
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+main {
+    background-color: #062BB4; /* Azul más agradable */
+    flex-grow: 1;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suma {
+    background-color: white;
+    width: 50vw;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.num {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.num label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.num input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #062BB4;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.Calcular {
+    margin: 20px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    background-color: #062BB4;
+    color: white;
+    border: solid white 1px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Calcular:hover {
+    background-color: #031A73; /* Efecto hover */
+}
+
+footer {
+    background-color: #21056E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+footer img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    background-color: #190258;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
