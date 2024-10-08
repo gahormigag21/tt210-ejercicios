@@ -30,6 +30,7 @@ header {
 
 header img {
     height: 80px; /* Ajustamos el tamaño de la imagen */
+    width: 200px;
 }
 
 header h1 {
